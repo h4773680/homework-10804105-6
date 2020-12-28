@@ -1,0 +1,61 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en">
+
+<script>
+alert("歡迎來到Left 4 Dead 2的劇情介紹");
+</script>
+<head>
+  <title>惡靈勢力2(L4D2)</title>
+  <meta name="description" content="website description" />
+  <meta name="keywords" content="website keywords, website keywords" />
+  <link rel="stylesheet" type="text/css" href="style/style.css" />
+</head>
+
+<body>
+  <div id="main">
+    <div id="links"></div>
+    <div id="header">
+      <div id="logo">
+        <div id="logo_text">
+          <h1>惡靈勢力2(L4D2)</h1>
+        </div>
+      </div>
+      <div id="menubar">
+        <ul id="menu">
+          <!-- put class="tab_selected" in the li tag for the selected page - to highlight which page you're on -->
+          <li class="tab_selected"><a href="index.html">遊戲與劇情介紹</a></li>
+          <li><a href="our_services.html">感染者種類</a></li>
+          <li><a href="about_us.html">遊戲玩法</a></li>
+        </ul>
+      </div>
+    </div>
+    <div id="site_content">
+      <div id="panel"><img src="style/panel.jpg" alt="gray cage" /></div>
+      <div class="sidebar">
+        <!-- insert your sidebar items here -->
+        <h1>遊戲發展</h1>
+        <h2>2008年由維爾福開發、以喪屍為主題的恐怖生存類遊戲《惡靈勢力》的續作</h2>
+        <h3>遊戲初次於2009年電玩E3展亮相，並已在2009年11月17日於PC以及Xbox 360平台上發行</h3>
+        <p>2009年12月14日，維爾福正式宣布在2010年早春釋出新的戰役地圖「短暫之時」（The Passing），並於隔年4月23日釋出。2010年8月22日，Valve在Gametrailers.com發布了一段存取片段，表示Valve將會推出一個名為「犧牲」（The Sacrifice）的戰役，以及講述惡靈勢力中倖存者們的遭遇的同名數位漫畫。在2010年9月15日，漫畫的第一章在惡靈勢力的官方網站釋出，其後每隔一星期釋出一章（共有四章）。「犧牲」戰役於10月6日釋出。同時，舊作惡靈勢力中的劇情「毫不留情」（No Mercy）亦被加入到惡靈勢力2。Xbox 360玩家將需要付560 Microsoft Point以取得它們，PC版則免費更新。2020年9月24日，迎來了睽違10年的全面更新，包含20張全新的戰役地圖、2把全新的近戰武器、角色動畫與配音重製與更新、PVP的平衡調整與全新的成就。</p>
+        <h2>當前時間</h2>
+        <p id='time'></p>
+        <script>
+        setInterval(function(){document.getElementById('time').innerHTML=Date();}, 1000);
+        </script>
+      </div>
+      <div id="content">
+        <!-- insert the page content here -->
+        <h1>劇情介紹</h1>
+        <p>《惡靈勢力2》的故事發生在《惡靈勢力》的故事一個星期後的美國東南方，包括美國喬治亞州的沙瓦那和紐奧良法國區。</p>
+        <p>在《惡靈勢力2》裡，有4名倖存者角色-魁梧的黑人高中橄欖球「教練」（Coach），年輕的小夥子、熱愛機械的汽車修理員艾利斯（Ellis），一身『價值三千美金的』白色西裝，看似斯文，實際上卻是騙子賭徒的尼克（Nick）及唯一的女性角色、喜愛音樂同時也是地方電視台新聞節目的初級製作助理的蘿雪兒（Rochelle）</p>
+        <p>遊戲中的世界有一個稱為Civil Emergency and Defense Agency（CEDA）的防疫機構，雖然它並沒有直接被提及，不過玩家可以從一些貼在安全室和被封鎖的建築物上的告示里找到它的名字。</p>
+        <p>CEDA在遊戲初期擔當執行管制和疏散的機構，並且對感染展開研究。他們的研究顯示感染很可能由狂犬病突變而成，同時CEDA認為病毒是經哺乳類動物傳播。雖然CEDA把病毒命名為「綠色流感」，但它實際上不是流感。</p>
+        <p id="demo" style="display:none">真期待第三代的劇情</p>
+        <button type="button" onclick="document.getElementById('demo').style.display='block'">版主的期待
+        </button>
+      </div>
+    </div>
+    <div id="footer">網際網路實務第五次作業 | 10804105 | 應數二 | 林鴻諭</div>
+  </div>
+</body>
+</html>
